@@ -1,0 +1,14 @@
+@font-face {
+  font-family: DSG-Sans-Bold;
+  src: url("/DSGSans-Bold.woff");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components {
+  .banner-link {
+    @apply text-sm font-bold mx-2 py-2 px-6 border-2 border-black uppercase bg-white w-[204px] hover:bg-[#ededed];
+  }
+} */
