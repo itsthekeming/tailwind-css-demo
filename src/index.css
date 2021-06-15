@@ -7,8 +7,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
+@layer components {
   .banner-link {
     @apply text-sm font-bold mx-2 py-2 px-6 border-2 border-black uppercase bg-white w-[204px] hover:bg-[#ededed];
   }
-} */
+}

@@ -7,7 +7,7 @@ type BannerLinkProps = {
 
 export default function TailwindBannerLink({ text, href }: BannerLinkProps) {
   return (
-    <a className="text-sm font-bold mx-2 py-2 px-6 border-2 border-black uppercase bg-white w-[204px] hover:bg-[#ededed]" href={href}>
+    <a className=".banner-link" href={href}>
       {text}
     </a>
   );

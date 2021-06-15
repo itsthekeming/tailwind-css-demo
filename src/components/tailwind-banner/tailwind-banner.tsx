@@ -1,5 +1,5 @@
 import React from "react";
-// import TailwindBannerLink from "./tailwind-banner-link";
+import TailwindBannerLink from "./tailwind-banner-link";
 
 export default function TailwindBanner() {
   return (
@@ -9,21 +9,23 @@ export default function TailwindBanner() {
         <h1 className="mb-2 text-5xl font-bold leading-none tracking-wide uppercase font-banner">Commit To Fit</h1>
         <h2 className="mb-2 text-base font-normal">Check out the latest equipment and gear to achieve all your goals.</h2>
         <div className="flex justify-center">
-          <a className="text-sm font-bold mx-2 py-2 px-6 border-2 border-black uppercase bg-white w-[204px] hover:bg-[#ededed]" href="#">
-            Fitness
-          </a>
-          <a className="text-sm font-bold mx-2 py-2 px-6 border-2 border-black uppercase bg-white w-[204px] hover:bg-[#ededed]" href="#">
-            Cardio
-          </a>
-          <a className="text-sm font-bold mx-2 py-2 px-6 border-2 border-black uppercase bg-white w-[204px] hover:bg-[#ededed]" href="#">
-            Strength
-          </a>
+          <TailwindBannerLink text="Fitness" href="#" />
+          <TailwindBannerLink text="Cardio" href="#" />
+          <TailwindBannerLink text="Strength" href="#" />
         </div>
       </div>
     </div>
   );
 }
 
-// <TailwindBannerLink text="Fitness" href="#" />
-// <TailwindBannerLink text="Cardio" href="#" />
-// <TailwindBannerLink text="Strength" href="#" />
+{
+  /* <a className="text-sm font-bold mx-2 py-2 px-6 border-2 border-black uppercase bg-white w-[204px] hover:bg-[#ededed]" href="#">
+  Fitness
+</a>
+<a className="text-sm font-bold mx-2 py-2 px-6 border-2 border-black uppercase bg-white w-[204px] hover:bg-[#ededed]" href="#">
+  Cardio
+</a>
+<a className="text-sm font-bold mx-2 py-2 px-6 border-2 border-black uppercase bg-white w-[204px] hover:bg-[#ededed]" href="#">
+  Strength
+</a> */
+}
